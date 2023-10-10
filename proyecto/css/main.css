@@ -1,0 +1,221 @@
+
+*{
+    background-color: black;
+    margin: 0;
+    padding:0;
+}
+ /* inicia index*/
+.inicio{
+    color: white;
+}
+
+h1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    background-color: red;
+    margin-top: 0%;
+}
+.titulo{
+    margin: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: center;
+}
+.cuadruple{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 
+}
+
+.oferta{
+    color: aliceblue;
+    text-align: center;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card1 h2{
+    font-size: 17px;
+    
+}
+.card1 .precio{
+    font-size: 20px;
+    color: red;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover{
+    color: red;
+}
+
+.this{
+    color: red;
+}
+
+
+
+
+.ofertas img{
+    width: 220px;
+    height: 250px;
+}
+
+.links{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+#remeras{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+#remeras img{
+    width: 220px;
+    height: 250px;
+}
+
+#buzos{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#buzos img{
+    width: 220px;
+    height: 250px;
+}
+
+.boton{
+   color: white;
+   background-color: red;
+   border-radius: 2em;
+   padding: 8px;
+   width: 100%;
+   height: 45px;
+   border: none;
+}
+.boton:hover{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+}
+
+.card1{
+    text-align: center;
+    color: white;
+    height: 390px;
+
+}
+/*titulo*/
+
+
+
+
+
+/*normal*/
+.normal{
+    color: white;
+}
+
+
+/* ofertas */
+
+.tachado{
+    text-decoration: line-through;
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+
+  /* envio */
+.texto-envio{
+    color: white;
+}
+
+.envio-total{
+    margin-top: 30px;
+   
+}
+
+.logo-envio{
+   margin-left: 600px;
+   height: 150px;
+}
+
+.envio1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.envio{
+    
+    display: flex;
+    flex-direction: column;
+    width: 200px; 
+   margin: 20px;
+   border: solid white;   
+   border-radius: 10px;
+
+}
+
+.envio input{
+    color: white;
+    margin: 10px;
+    
+}
+
+/* sucursales */
+
+.sucursales{
+    margin-top: 100px;
+    color: white;
+    
+}
+
+.lugar{
+    margin-top: 25px;
+}
+
+.mapa{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 5%;
+    height: 5%;
+}
+
+
+/* contacto*/
+
+.contacto{
+    color: white;
+    text-align: center;
+}
