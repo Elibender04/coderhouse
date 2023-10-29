@@ -1,0 +1,63 @@
+.inicio{
+    color: white;
+}
+
+h1{
+    background-color: $colorPrincipal;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    background-color: $colorPrincipal;
+    margin-top: 0%;
+}
+.titulo{
+    margin: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover{
+    color: $colorPrincipal;
+}
+
+.this{
+    color: $colorPrincipal;
+}
+
+.ofertas img{
+    width: 220px;
+    height: 250px;
+}
+
+.links{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+//
+.boton{
+   color: white;
+   background-color: $colorPrincipal;
+   border-radius: 2em;
+   padding: 8px;
+   width: 100%;
+   height: 45px;
+   border: none;
+}
+.boton:hover{
+    background-color: transparent;
+    color: $colorPrincipal;
+    border: 2px solid $colorPrincipal;
+}

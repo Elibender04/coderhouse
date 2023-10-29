@@ -1,0 +1,36 @@
+.texto-envio{
+    color: white;
+}
+
+.envio-total{
+    margin-top: 30px;
+   
+}
+
+.logo-envio{
+   margin-left: 600px;
+   height: 150px;
+}
+
+.envio1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.envio{
+    
+    display: flex;
+    flex-direction: column;
+    width: 200px; 
+   margin: 20px;
+   border: solid $colorPrincipal;   
+   border-radius: 10px;
+
+}
+
+.envio input{
+    color: white;
+    margin: 10px;
+    
+}

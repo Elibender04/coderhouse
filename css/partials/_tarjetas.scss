@@ -1,0 +1,76 @@
+.cuadruple{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 
+}
+
+.oferta{
+    color: aliceblue;
+    text-align: center;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card1 h2{
+    font-size: 17px;
+   
+    .card1 .precio{
+        font-size: 20px;
+        color: $colorPrincipal;
+    }
+}
+
+#remeras{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-around; 
+    
+    #remeras img{
+        width: 220px;
+        height: 250px;
+    }
+}
+
+
+
+#buzos{
+    width: 100%;
+    display: flex;
+    margin-top: 0;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+#buzos img{
+    width: 220px;
+    height: 250px;
+}
+
+.card1{
+    text-align: center;
+    color: white;
+    height: 390px;
+
+}
+.normal{
+    color: white;
+}
+
+.tachado{
+    text-decoration: line-through;
+    font-size: 10px;
+    margin-bottom: 2px;
+}

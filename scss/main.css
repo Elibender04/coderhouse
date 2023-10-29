@@ -1,0 +1,255 @@
+* {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.cuadruple {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.oferta {
+  color: aliceblue;
+  text-align: center;
+}
+
+.ofertas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card1 h2 {
+  font-size: 17px;
+}
+.card1 h2 .card1 .precio {
+  font-size: 20px;
+  color: #ff0000;
+}
+
+#remeras {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#remeras #remeras img {
+  width: 220px;
+  height: 250px;
+}
+
+#buzos {
+  width: 100%;
+  display: flex;
+  margin-top: 0;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#buzos img {
+  width: 220px;
+  height: 250px;
+}
+
+.card1 {
+  text-align: center;
+  color: white;
+  height: 390px;
+}
+
+.normal {
+  color: white;
+}
+
+.tachado {
+  text-decoration: line-through;
+  font-size: 10px;
+  margin-bottom: 2px;
+}
+
+.logo-sucursales {
+  margin-left: 500px;
+  height: 150px;
+}
+
+.logo-contacto {
+  margin-left: 500px;
+  height: 150px;
+}
+
+.inicio {
+  color: white;
+}
+
+h1 {
+  background-color: #ff0000;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  background-color: #ff0000;
+  margin-top: 0%;
+}
+
+.titulo {
+  margin: 0%;
+  margin-top: 0%;
+  margin-left: 0%;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.this {
+  color: #ff0000;
+}
+
+.ofertas img {
+  width: 220px;
+  height: 250px;
+}
+
+.links {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.boton {
+  color: white;
+  background-color: #ff0000;
+  border-radius: 2em;
+  padding: 8px;
+  width: 100%;
+  height: 45px;
+  border: none;
+}
+
+.boton:hover {
+  background-color: transparent;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0px;
+}
+
+.descuento-grid {
+  background-color: #ff0000;
+}
+
+.descuento {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-grid {
+  width: 100%;
+  height: 100%;
+}
+
+.texto-envio {
+  color: white;
+}
+
+.envio-total {
+  margin-top: 30px;
+}
+
+.logo-envio {
+  margin-left: 600px;
+  height: 150px;
+}
+
+.envio1 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.envio {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 20px;
+  border: solid #ff0000;
+  border-radius: 10px;
+}
+
+.envio input {
+  color: white;
+  margin: 10px;
+}
+
+.sucursales {
+  margin-top: 100px;
+  color: white;
+}
+
+.lugar {
+  margin-top: 25px;
+}
+
+.mapa {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.mapas {
+  width: 100%;
+  height: 450px;
+}
+
+.lugar {
+  background-color: black;
+}
+
+.lugar:hover {
+  background-color: red;
+}
+
+@media (min-width: 768px) {
+  .mapas {
+    width: 80%;
+    height: 600px;
+  }
+}
+.contacto {
+  color: white;
+  text-align: center;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  background-color: white;
+  border: 2px solid;
+}
+
+.navbar {
+  margin-bottom: 0;
+}/*# sourceMappingURL=main.css.map */

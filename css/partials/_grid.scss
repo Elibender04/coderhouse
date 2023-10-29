@@ -1,0 +1,21 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0px;
+
+}
+.logo-grid{
+}
+.descuento-grid{
+background-color: $colorPrincipal;
+}
+
+.descuento{
+  width: 100%;
+  height: 100%;
+}
+.logo-grid{
+    width: 100%;
+    height: 100%;
+  
+}
